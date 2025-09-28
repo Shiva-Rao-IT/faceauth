@@ -48,6 +48,11 @@ Follow these steps to get the backend server running.
 4.  **Configure environment variables:**
     Create a new file named `.env` in the `backend` directory. Which will include your MONGO_URI and the JWT_SECRET_KEY
 
+    ```bash
+    MONGO_URI="your mongo url"
+    JWT_SECRET_KEY="your jwt secret key"
+    ```
+
 
 5.  **Seed the database:**
     Run the seed script to create the email and password for the admin and teacher role.
