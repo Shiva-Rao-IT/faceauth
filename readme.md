@@ -1,4 +1,4 @@
-# Faceauth automated attendance
+# Faceauth automated attendance System
 
 ## Overview
 
