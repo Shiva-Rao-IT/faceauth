@@ -31,17 +31,5 @@ def seed():
     print(f"Inserted {len(users)} users.")
     print("Default password for all users is: password123")
 
-
-    # Seed Courses
-    courses = [
-        {"_id": "CS101", "name": "Introduction to Computer Science"},
-        {"_id": "PHY201", "name": "Modern Physics"},
-        {"_id": "MTH301", "name": "Advanced Calculus"},
-    ]
-    db.courses.insert_many(courses)
-    print(f"Inserted {len(courses)} courses.")
-
-    print("Database seeding complete!")
-
 if __name__ == "__main__":
     seed()

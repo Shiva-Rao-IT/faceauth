@@ -27,7 +27,7 @@ Follow these steps to get the backend server running.
     cd backend
     ```
 
-2.  **Create and activate a Python virtual environment:**
+2.  **Create and activate a Python virtual environment:(optinal)**
     * **Windows:**
         ```bash
         python -m venv venv
@@ -45,13 +45,19 @@ Follow these steps to get the backend server running.
     pip install -r requirements.txt
     ```
 
-4.  **Set up the database:**
-    This project is configured to use a database (likely PostgreSQL, given the `psycopg2-binary` dependency). Make sure your database server is running and, if necessary, update the connection string within the backend application's configuration files.
+4.  **Configure environment variables:**
+    Create a new file named `.env` in the `backend` directory. Which will include your MONGO_URI and the JWT_SECRET_KEY
 
-5.  **Seed the database with mock data (Optional):**
-    Run the seed script to populate the database with initial data for testing.
+
+5.  **Seed the database:**
+    Run the seed script to create the email and password for the admin and teacher role.
     ```bash
     python seed_db.py
+    ```
+
+    (optinal)Populate the databse with mock data for testing. 
+    ```bash
+    python full_mock_data_generator.py
     ```
 
 6.  **Run the backend server:**
@@ -81,17 +87,7 @@ Follow these steps to get the user interface running.
     yarn install
     ```
 
-3.  **Configure environment variables:**
-    Create a new file named `.env.local` in the `frontend` directory. You can do this by copying the provided example file:
-    ```bash
-    cp .env.local.example .env.local
-    ```
-    This file tells the frontend where the backend API is located. Its content should be:
-    ```
-    NEXT_PUBLIC_API_URL=[http://127.0.0.1:5000](http://127.0.0.1:5000)
-    ```
-
-4.  **Run the frontend development server:**
+3.  **Run the frontend development server:**
     Using npm:
     ```bash
     npm run dev
