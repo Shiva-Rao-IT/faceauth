@@ -1,4 +1,4 @@
-# Student Management Dashboard
+# Faceauth automated attendance
 
 ## Overview
 
