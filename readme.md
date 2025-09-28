@@ -6,13 +6,13 @@ This project is a full-stack web application for managing student information. I
 
 ## Preview
 
-Admin Dashboard Screenshot 
+Admin Dashboard 
 ![Admin Dashboard](frontend/assets/admin.png)
  
-Teacher Dashboard Screenshot 
+Teacher Dashboard
 ![Teacher Dashboard](frontend/assets/teacher.png)
  
-Student Dashboard Screenshot 
+Student Dashboard
 ![Student Dashboard](frontend/assets/student.png)
 
 
