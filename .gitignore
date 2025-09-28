@@ -4,3 +4,4 @@ node_modules/
 # React environment files
 .env
 __pycache__/
+.gitignore
