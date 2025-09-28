@@ -118,7 +118,7 @@ export default function Analytics() {
 
             <Card className="mt-6">
                 <CardHeader>
-                    <CardTitle>Attendance by Class</CardTitle>
+                    <CardTitle>Attendance by Course</CardTitle>
                 </CardHeader>
                 <CardContent>
                      <div style={{ width: '100%', height: 400 }}>

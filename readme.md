@@ -4,6 +4,18 @@
 
 This project is a full-stack web application for managing student information. It features a modern user interface built with **Next.js (React)** and a robust REST API powered by **Flask (Python)** to handle data processing and database interactions.
 
+## Preview
+
+Admin Dashboard Screenshot 
+![Admin Dashboard](frontend/assets/admin.png)
+ 
+Teacher Dashboard Screenshot 
+![Teacher Dashboard](frontend/assets/teacher.png)
+ 
+Student Dashboard Screenshot 
+![Student Dashboard](frontend/assets/student.png)
+
+
 ## Project Structure
 
 The repository is organized into two main directories, separating the frontend and backend concerns:
