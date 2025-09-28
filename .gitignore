@@ -1,0 +1,6 @@
+# === Node / React (Frontend) ===
+node_modules/
+
+# React environment files
+.env
+__pycache__/
