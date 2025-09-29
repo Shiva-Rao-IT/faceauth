@@ -18,7 +18,6 @@ const config = {
       },
     },
     extend: {
-      // THIS EXTEND BLOCK IS THE FIX
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

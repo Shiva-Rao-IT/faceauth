@@ -4,25 +4,34 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --background: 158 43% 93%; /* Light Mint Green */
+    --foreground: 223 34% 25%; /* Dark Slate Blue for text */
+
+    --card: 0 0% 100%; /* White for cards to stand out */
+    --card-foreground: 223 34% 25%;
+ 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --popover-foreground: 223 34% 25%;
+ 
+    --primary: 211 47% 55%; /* Medium Blue for buttons/links */
+    --primary-foreground: 210 40% 98%; /* Almost White for text on buttons */
+ 
+    --secondary: 200 67% 90%; /* Lighter Sky Blue */
+    --secondary-foreground: 221 44% 41%;
+ 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+ 
+    --accent: 200 67% 90%; /* Light Sky Blue for hover states */
+    --accent-foreground: 221 44% 41%;
+ 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
+
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 211 47% 55%;
+ 
     --radius: 0.5rem;
   }
  
@@ -33,10 +42,10 @@
  
 @layer base {
   * {
-    /* This is the corrected syntax */
     border-color: hsl(var(--border));
   }
   body {
     @apply bg-background text-foreground;
   }
 }
+
